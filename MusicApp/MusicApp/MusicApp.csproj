@@ -79,6 +79,7 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="partials\addSong.html" />
+    <Content Include="routes\routes.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
