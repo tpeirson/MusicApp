@@ -1,30 +1,22 @@
 ﻿<!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <title>Music Application</title>
 	<meta charset="utf-8" />
 </head>
 <body>
-
-    <div>
-        I am index page
-
+    <br />
+    <div class="container">
+        <div ng-view>
+        </div>
     </div>
-
-
-
-    <div ng-view>        
-
-    </div>
-
-
-    
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.0/angular-route.min.js"></script>
     <script src="app/app.js"></script>
     <script src="controllers/controllers.js"></script>
     <script src="routes/routes.js"></script>
+    <script src="services/msService.js"></script>
 </body>
 </html>

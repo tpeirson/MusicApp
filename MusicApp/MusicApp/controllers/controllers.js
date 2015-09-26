@@ -1,9 +1,9 @@
 ﻿///<reference path = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js">
 
-var controllers = angular.module('controllers', []);
+var controllers = angular.module('controllers', ['msService']);
 
-controllers.controller('addSong', function ($scope) {
+controllers.controller('addSong', function ($scope, service) {
 
-    $scope.firstname = "anthony";
+    $scope.track = service.track;
     
 });
