@@ -9,9 +9,9 @@ service.factory('service', function () {
             title: "chandalier",
             artist: "sia",
             label: "foxtrot records",
-            genre: "Pop",
-            number1: true,
-            speed: "slow"
+            genre: "Dance",
+            number1: "true",
+            speed: "medium"
 
         }//end track object
 

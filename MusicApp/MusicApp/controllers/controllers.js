@@ -5,5 +5,7 @@ var controllers = angular.module('controllers', ['msService']);
 controllers.controller('addSong', function ($scope, service) {
 
     $scope.track = service.track;
-    
+
+    $scope.genres = ["Pop","R&B","Rap","Dance","Other"];
+        
 });
