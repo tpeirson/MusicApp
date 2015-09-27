@@ -12,5 +12,19 @@ controllers.controller('addSong', function ($scope, service) {
     {
         
     }
+
+    $scope.cancelForm = function () {
+
+    }
         
 });
+
+
+controllers.controller('homeController', function ($scope, $location) {
+
+    $scope.addSong = function () {
+
+        $location.path('/addSong');
+    };
+
+})

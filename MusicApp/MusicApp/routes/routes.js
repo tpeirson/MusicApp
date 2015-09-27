@@ -9,6 +9,10 @@ routes.config(function ($routeProvider) {
 
     templateUrl: '../partials/addSong.html',
     controller: 'addSong'
-})
+    })
+    .when("/",{
+        templateUrl: "../partials/initial.html",
+        controller: 'homeController'
+    })
 
 });//end config
